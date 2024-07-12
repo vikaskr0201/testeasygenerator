@@ -1,0 +1,7 @@
+.DS_Store
+.git
+.vscode
+.settings
+# Dependency directories
+easygenerator/node_modules/
+
