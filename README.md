@@ -26,9 +26,14 @@ git clone git@github.com:vikaskr0201/testeasygenerator.git
 From the downloaded path navigate to easygenerator<br/>
 ```
 cd easygenerator/
+
 ```
+
+``` 
 npm install
-x
+
+```
+
 ```
 npm start 
 
