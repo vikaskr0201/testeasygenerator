@@ -1,24 +1,24 @@
 {
-  "name": "easygenerator",
-  "version": "1.0.0",
-  "description": "Automation Task for easygenerator static page",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd app && node initializeapp.js"
-  },
-  "keywords": [],
-  "author": "Vikas Kumar",
-  "license": "ISC",
-  "dependencies": {
-    "cypress": "^13.13.0"
-  },
-  
-  "devDependencies": {
-    "prettier": "^3.3.2",
-    "typescript": "^5.5.3"
-  },
-
-
-  "type": "module"
+	"name": "easygenerator",
+	"version": "1.0.0",
+	"description": "Automation Task for easygenerator static page",
+	"main": "index.js",
+	"scripts": {
+		"start": "cd app && node initializeapp.js",
+		"cypress:ui": "cypress open",
+		"cypress:headless": "cypress run --headless --browser chrome",
+		"prettier:check": "npx prettier --check .",
+		"prettier:apply": "npx prettier --write ."
+	},
+	"keywords": [],
+	"author": "Vikas Kumar",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^13.13.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.3.2",
+		"typescript": "^5.5.3"
+	},
+	"type": "module"
 }
