@@ -57,6 +57,7 @@ npm run cypress:headless
  Agile continuous integration methodology, so the version is frequently updated and development is really fast.<br/>
 
 **`master`** is the production ready code.
+**`develop`** improvements in progress - dockerize , github actions etc.
 
 ##  :lock: License
 Add a license here, or a link to it.
