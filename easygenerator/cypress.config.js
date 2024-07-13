@@ -16,7 +16,8 @@ export default defineConfig({
 				}
 			});
 		},
-		baseUrl: "http://localhost:5001/",
+		//baseUrl: "http://localhost:5001/",
+		baseUrl: "http://host.docker.internal:5001",
 		chromeWebSecurity: false
 	}
 });

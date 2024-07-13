@@ -56,8 +56,14 @@ npm run cypress:headless
 
  Agile continuous integration methodology, so the version is frequently updated and development is really fast.<br/>
 
-**`master`** is the production ready code.
-**`develop`** improvements in progress - dockerize , github actions etc.
+**`master`** is the production ready code.<br/>
+**`develop`** improvements in progress - dockerize , github actions etc.<br/>
+
+Only in `develop` branch to run the cypress test in dockerized container.<br/>
+
+```
+docker-compose -f docker-compose.yml up
+```
 
 ##  :lock: License
 Add a license here, or a link to it.

@@ -4,4 +4,6 @@
 .settings
 # Dependency directories
 easygenerator/node_modules/
+# screenshots
+easygenerator/cypress/screenshots
 
