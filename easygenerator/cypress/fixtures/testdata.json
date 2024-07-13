@@ -1,0 +1,9 @@
+{
+	"url": "https://www.easygenerator.com/",
+	"alertFile": "cypress/fixtures/alert-text.txt",
+    "dropdownOption": "Option3",
+	"dropdownValue": "option3",
+    "alertText": "Hello Hello from Easygenerator, share this practice page and share your knowledge",
+	"confirmAlert": "Hello Hello from Easygenerator, Are you sure you want to confirm?"
+	
+}
