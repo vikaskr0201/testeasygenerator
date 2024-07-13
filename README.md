@@ -5,7 +5,7 @@
 ##  :beginner: Project Description 
 Develop cypress scripts for the easy generator website
 ## Project Objectives 
-Demonstrate proficiency in JS technologies and automation capabilities with Cypress
+Demonstrate proficiency in JS technologies and automation capabilities with Cypress using TypeScript. 
 
 ### :notebook: Prerequistes:
  - Node should be installed as per operating system [click here](https://nodejs.org/en/download/package-manager)<br/>
@@ -28,14 +28,24 @@ From the downloaded path navigate to easygenerator<br/>
 cd easygenerator/
 ```
 npm install
-
+x
 ```
 npm start 
 
 ```
 This will run the application on http://localhost:5001/ <br/>
 
+**Run Cypress in UI mode**
+```
+npm run cypress:ui
 
+```
+**Run Cypress in Headless mode**
+
+```
+npm run cypress:headless
+
+```
 
 ### :cactus: Branches
 
