@@ -9,6 +9,8 @@ Demonstrate proficiency in JS technologies and automation capabilities with Cypr
 
 ### :notebook: Prerequistes:
  - Node should be installed as per operating system [click here] (https://nodejs.org/en/download/package-manager)<br/>
+ - Configure TypeScript for cypress project [click here] (https://docs.cypress.io/guides/tooling/typescript-support)<br/>
+ - Configure prettier for the project [click here] (https://prettier.io/)<br/>
 
 ###  :zap: Approach: 
 
