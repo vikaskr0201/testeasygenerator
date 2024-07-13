@@ -1,4 +1,4 @@
 {
 	"message": "This is a mocked response",
-	"result": "Mocking successfull. Request did not go to the origin resulting 404"
+	"result": "Mocking successfull. Request did not go to the origin"
 }
